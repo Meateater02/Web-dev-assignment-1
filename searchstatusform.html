@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Search Status Page</title>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="navlist">
+                <a href="index.html" class="name">Home</a>
+            </li>
+            <li class="navlist">
+                <a href="poststatusform.php">Post Status</a>
+            </li>
+            <li class="navlist active">
+                <a href="searchstatusform.html">Search Status</a>
+            </li>
+            <li class="navlist">
+                <a href="about.html">About This Assignment</a>
+            </li>
+        </ul>
+        <div class="cntxt">
+            <h1>Post a New Status</h1>
+            <form method="get" action="searchstatusprocess.php">
+                <label>Status:
+                    <input type="text" name="Search" placeholder="Enter a keyword">
+                </label>
+                <input type="submit" value="Show Results">
+            </form>
+            <br>
+            <a href="index.html">Return to Home page</a>
+        </div>
+        <footer>Davina Phan 1300285</footer>
+    </body>
+</html>
